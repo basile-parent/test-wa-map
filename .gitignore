@@ -1,2 +1,4 @@
 .idea
 *.iml
+_assets
+*_save*

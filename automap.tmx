@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" source="_assets/floortileset.tsx"/>
+ <layer id="1" name="regions" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJwzZ6AMAAAOAAA4
+  </data>
+ </layer>
+ <layer id="2" name="input_ground" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJwTYaAMAAAFQAAV
+  </data>
+ </layer>
+ <layer id="3" name="output_ground" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJzjYaAMAAADQAAN
+  </data>
+ </layer>
+</map>
