@@ -917,7 +917,7 @@
         {
          "columns":16,
          "firstgid":321,
-         "image":"_assets\/mansion.png",
+         "image":"assets\/mansion.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -996,7 +996,7 @@
          "imageheight":128,
          "imagewidth":320,
          "margin":0,
-         "name":"ezgif-6-85fc3a352f17",
+         "name":"flag_na",
          "spacing":0,
          "tilecount":10,
          "tileheight":64,
