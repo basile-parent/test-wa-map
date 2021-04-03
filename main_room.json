@@ -36,7 +36,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"map.json"
+                 "value":"map.json#start_return_from_main_room"
                 }],
          "type":"tilelayer",
          "visible":true,
