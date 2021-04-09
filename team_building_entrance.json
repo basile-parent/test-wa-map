@@ -375,8 +375,45 @@
          "source":"assets\/LM\/hyptosis_tile-art-batch-3.tsx"
         }, 
         {
+         "columns":16,
          "firstgid":1801,
-         "source":"assets\/LM\/tileb1.tsx"
+         "image":"assets\/LM\/tileb1.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"tileb1",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":97,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":150,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":151,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
