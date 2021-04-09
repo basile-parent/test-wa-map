@@ -8,6 +8,12 @@
          "id":11,
          "name":"exit_to_outside",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"exitUrl",
+                 "type":"string",
+                 "value":"team_building_entrance.json#return_from_cave"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":64,
@@ -20,12 +26,6 @@
          "id":10,
          "name":"start",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"exitUrl",
-                 "type":"string",
-                 "value":"team_building_entrance.json#return_from_cave"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":64,
