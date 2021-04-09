@@ -510,7 +510,25 @@
                         }]
                 }, 
                 {
+                 "id":385,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
                  "id":386,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":387,
                  "properties":[
                         {
                          "name":"collides",
