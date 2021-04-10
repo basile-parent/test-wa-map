@@ -42,7 +42,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/drive.google.com\/file\/d\/1eyyfoLjvRZEuF3iyGH1KpY2oG1RYvbez\/view?usp=sharing"
+                 "value":"https:\/\/i.ibb.co\/zbZH0TT\/diary.jpg"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -60,7 +60,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/drive.google.com\/file\/d\/1g6D90BJAbotMU378RTiWgDTmhV-VCnLp\/view?usp=sharing"
+                 "value":"https:\/\/i.ibb.co\/r6xxMP7\/tombstone.jpg"
                 }],
          "type":"tilelayer",
          "visible":true,
