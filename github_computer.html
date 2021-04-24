@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        @font-face {
+            font-family: '8-bit_hud';
+            src: url('_assets/ressources/8_bit_hud/webfontkit-20210414-131849/8-bit-hud-webfont.woff2') format('woff2'),
+            url('_assets/ressources/8_bit_hud/webfontkit-20210414-131849/8-bit-hud-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .blink {
+            animation: blinker 1s step-start infinite;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select:none;
+            user-select:none;
+            -o-user-select:none;
+            vertical-align: super;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        html {
+            background-color: black;
+        }
+        #url {
+            position: absolute;
+            top: 120px;
+            left: 365px;
+            width: 524px;
+            height: 300px;
+            /*border: 1px solid red;*/
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 18px;
+            text-align: center;
+            font-family: "8-bit_hud", Arial, sans-serif;
+            color: greenyellow;
+            perspective: 600px;
+            text-shadow: 4px 4px 0 #0e0e0e;
+            filter: blur(0.8px);
+        }
+        #url p {
+            transform: rotateY(-15deg);
+        }
+        img {
+        }
+    </style>
+</head>
+<body>
+    <div id="url">
+        <p>
+            https://github.com/basile-parent/test-wa-map/<span class="blink" unselectable="on"
+                  onselectstart="return false;"
+                  onmousedown="return false;">█</span>
+        </p>
+    </div>
+    <img src="_assets/rendus/computer.jpg" style="height: 800px" />
+</body>
+</html>
