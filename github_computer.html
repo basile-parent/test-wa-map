@@ -48,13 +48,22 @@
             justify-content: center;
             align-items: center;
 
-            font-size: 44px;
+            font-size: 18px;
             text-align: center;
             font-family: "8-bit_hud", Arial, sans-serif;
             color: greenyellow;
             perspective: 600px;
             text-shadow: 4px 4px 0 #0e0e0e;
             filter: blur(1.3px);
+
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -webkit-pre-wrap;          /* Chrome & Safari */
+            white-space: -pre-wrap;                 /* Opera 4-6 */
+            white-space: -o-pre-wrap;               /* Opera 7 */
+            white-space: pre-wrap;                  /* CSS3 */
+            word-wrap: break-word;                  /* Internet Explorer 5.5+ */
+            word-break: break-all;
+            white-space: normal;
         }
 
         #url p {
