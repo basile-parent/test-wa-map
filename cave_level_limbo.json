@@ -53,7 +53,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"hhttps:\/\/resources.basileparent.fr\/workadventure\/lm\/computer.html?url=https:\/\/jira.adeo.com\/browse\/SPLR-2214"
+                 "value":"https:\/\/resources.basileparent.fr\/workadventure\/lm\/computer.html?url=https:\/\/jira.adeo.com\/browse\/SPLR-2214"
                 }],
          "type":"tilelayer",
          "visible":true,
