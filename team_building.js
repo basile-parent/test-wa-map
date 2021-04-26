@@ -1,6 +1,6 @@
 WA.onEnterZone('warden', () => {
   WA.sendChatMessage("Mot de passe ?", 'Gardien');
-  // console.log("WA", WA);
+  console.log("WA", WA);
 })
 
 WA.onChatMessage((message => {
