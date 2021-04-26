@@ -479,7 +479,7 @@
                 {
                  "name":"zone",
                  "type":"string",
-                 "value":"wardene"
+                 "value":"warden"
                 }],
          "type":"tilelayer",
          "visible":true,
