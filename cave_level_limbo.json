@@ -115,6 +115,12 @@
          "id":39,
          "name":"start_from_heresy_2",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":64,
@@ -127,6 +133,12 @@
          "id":40,
          "name":"start_from_heresy_3",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":64,
