@@ -5,6 +5,10 @@ WA.onEnterZone('warden', () => {
   userOnZone.push("warden");
   console.log("WA", WA);
 })
+
+WA.onEnterZone('zoom', () => {
+  WA.openTab('https://zoom.us/j/95247853169?pwd=WnFHSjAxYlhVV1RaeWwyRkhvT1Ftdz09');
+})
 WA.onLeaveZone('warden', () => {
   userOnZone = userOnZone.filter(z => z !== "warden");
 })

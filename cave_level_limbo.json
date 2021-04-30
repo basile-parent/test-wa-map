@@ -458,9 +458,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"zone",
                  "type":"string",
-                 "value":"https:\/\/zoom.us\/j\/95247853169?pwd=WnFHSjAxYlhVV1RaeWwyRkhvT1Ftdz09"
+                 "value":"zoom"
                 }],
          "type":"tilelayer",
          "visible":true,
